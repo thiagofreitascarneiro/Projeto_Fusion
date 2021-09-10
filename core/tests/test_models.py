@@ -42,3 +42,19 @@ class FuncionarioTestCase(TestCase):
         self.assertEquals(str(self.funcionario), self.funcionario.nome)
 
 
+class FeatureTesteCase(TestCase):
+
+    def setUp(self):
+        self.feature = mommy.make('Feature')
+
+    def test_str(self):
+        self.assertEquals(str(self.feature), self.feature.feature)
+
+
+class PrecoTesteCase(TestCase):
+
+    def setUp(self):
+        self.preco = mommy.make('Preco')
+
+    def test_decimal(self):
+        self.assertEquals((self.preco), self.preco.preco)
