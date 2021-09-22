@@ -9,11 +9,11 @@ companhia cadastrando no banco de dados Postgres integrando com o Admin do Djang
 ### Banco de dados Usando o Models 
 [Clique aqui](https://github.com/thiagofreitascarneiro/Projeto_Fusion/blob/main/core/models.py)
 
-#### Cadastro Funcionarios
+#### Cadastro dos Funcionarios
 
 ![](equipe.png)
 
-#### Cadastro Preços
+#### Cadastro dos Preços
 ![](precos.png)
 
 
@@ -35,4 +35,7 @@ companhia cadastrando no banco de dados Postgres integrando com o Admin do Djang
 ![img_3.png](heroku.png)
 
 ## Link do Projeto
+
+Obs: As fotos da equipe só ficam disponiveis por 30 minutos no site devido 
+as regras de hospedagem gratuita da Heroku.
 ### [Clique Aqui](https://fusion-thc.herokuapp.com/)
