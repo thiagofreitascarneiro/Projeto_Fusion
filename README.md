@@ -3,6 +3,7 @@
 
 Esse projeto cadastra as features, preços, cargos, funcionarios e o serviços da 
 companhia cadastrando no banco de dados Postgres integrando com o Admin do Django.
+Ele permite que você gerencie todos esses campos através da area administrativa retornando os dados na pagina principal.
 
 ![](admin.png)
 
